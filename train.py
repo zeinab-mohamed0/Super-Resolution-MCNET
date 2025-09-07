@@ -13,7 +13,7 @@ from data_utils import TrainsetFromFolder, ValsetFromFolder
 from eval import PSNR
 from torch.optim.lr_scheduler import MultiStepLR
          
-out_path = r'C:\Users\User\Downloads\CZ_hsdbi\MCNet_datasetHarvardraw' +  opt.datasetName + '/'
+out_path = r'C:/Users/User/Downloads/CZ_hsdbi/MCNet_datasetHarvardraw' +  opt.datasetName + '/'
 
       
 def main():
@@ -139,4 +139,5 @@ def save_checkpoint(epoch, model, optimizer):
           
 if __name__ == "__main__":
     main()
+
 
